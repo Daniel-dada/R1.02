@@ -9,6 +9,15 @@
 </head>
 <body>
 <header>
+    <div class="marque">
+        <a href="index.html" class="logo-titre">
+            <img src="img/logo.png" alt="Logo EDA" class="logo-petit">
+            <span class="nom">EDA <span class="vert">SNACK</span></span>
+        </a>
+        <p class="slogan">
+            Eco<span class="vert">logic</span> , Deli<span class="vert">cious</span>, Art<span class="vert">isan</span>
+        </p>
+    </div>
     <nav>
         <a href="EDA SNACK/Menu.html">MENU</a>
         <a href="EDA SNACK/Restaurant.html">RESTAURANT</a>
@@ -17,53 +26,54 @@
 </header>
 
 <main>
+    <section class="hero">
+        <div class="colonne-gauche">
+            <img src="img/logo.png" alt="Logo EDA" class="logo-grand">
+            <a href="EDA SNACK/Menu.html" class="bouton bouton-plein">COMMANDER</a>
+            <a href="EDA SNACK/Restaurant.html" class="bouton bouton-contour">EN SAVOIR PLUS</a>
+        </div>
 
-    <section>
-        <h2>MON sous titre</h2>
-
-        <ol>
-            <li>ddd</li>
-        </ol>
-
-        <ul>
-            <li>fdfdf</li>
-        </ul>
-
-        <table border="1">
-            <thead>
-            <tr>
-                <th colspan="2">Identité</th>
-                <th></th>
-            </tr>
-            <tr>
-                <th>Nom</th>
-                <th>Prénom</th>
-                <th>Age</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>1</td>
-                <td>444</td>
-                <td>19</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>444</td>
-                <td>19</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>444</td>
-                <td>19</td>
-            </tr>
-            </tbody>
-        </table>
+        <img src="img/burgers.jpg" alt="Deux burgers avec des frites" class="photo-burgers">
+        <img src="img/panini.jpg" alt="Panini au poulet croustillant" class="photo-panini">
     </section>
-    <section>
+
+    <section class="presentation">
+        <p>
+            EDA est un snack qui propose une restauration rapide, délicieuse et respectueuse de l'environnement.<br>
+            Nous privilégions les produits locaux et les ingrédients de qualité afin de proposer une alimentation plus responsable.
+        </p>
+        <a href="#" class="bulle-chat" aria-label="Nous contacter">
+            <svg viewBox="0 0 24 24" width="30" height="30" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20.5l1.6-5.1A8.5 8.5 0 1 1 21 11.5z"/>
+            </svg>
+        </a>
     </section>
 </main>
-<footer></footer>
+
+<footer>
+    <p class="footer-nom">EDA <span class="vert">SNACK</span></p>
+
+    <p class="footer-suivez">Suivez-nous</p>
+    <div class="reseaux">
+        <!-- Faux comptes : remplace "#" par les vrais liens -->
+        <a href="#" target="_blank" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="18" height="18" rx="5"/>
+                <circle cx="12" cy="12" r="4"/>
+                <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+            </svg>
+            @eda.snack
+        </a>
+        <a href="#" target="_blank" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor">
+                <path d="M16.6 5.8A4.3 4.3 0 0 1 15.5 3h-3.1v12.4a2.6 2.6 0 1 1-2.6-2.6c.3 0 .5 0 .8.1V9.7a5.7 5.7 0 1 0 4.9 5.7V9.1a7.3 7.3 0 0 0 4.3 1.4V7.4a4.3 4.3 0 0 1-3.2-1.6z"/>
+            </svg>
+            @eda.snack
+        </a>
+    </div>
+
+    <p class="copyright">&copy; 2026 EDA SNACK - Tous droits réservés</p>
+</footer>
 <script src="js/theme-changer.js" defer></script>
 </body>
 </html>
