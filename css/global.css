@@ -1,12 +1,126 @@
-ul {
-    color: red;
-    list-style: none;
-
-    & > li {
-
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-ul > li {
+body {
+    background-color: var(--fond);
+    color: var(--texte);
+    font-family: Arial, sans-serif;
+}
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.vert {
+    color: var(--vert);
+}
+
+/* ----- En-tête ----- */
+header {
+    background-color: var(--bandeau);
+    color: var(--texte-bandeau);
+    margin: 10px;
+    padding: 40px 40px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.logo-titre {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo-petit {
+    width: 90px;
+}
+
+.nom {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 48px;
+}
+
+.slogan {
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 48px;
+    color: var(--texte-bandeau);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--vert);
+}
+
+#themeChanger {
+    padding: 8px 12px;
+    border: 2px solid var(--vert);
+    border-radius: 10px;
+    background: none;
+    color: var(--texte-bandeau);
+    cursor: pointer;
+}
+
+/* ----- Pied de page ----- */
+footer {
+    border-top: 3px solid var(--vert);
+    margin: 10px;
+    padding: 30px 15px 15px;
+    text-align: center;
+}
+
+.footer-nom {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 32px;
+}
+
+.footer-suivez {
+    font-family: 'Cinzel', serif;
+    margin: 15px 0 10px;
+}
+
+.reseaux {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.reseaux a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--texte);
+    text-decoration: none;
+}
+
+.reseaux a:hover {
+    color: var(--vert);
+}
+
+.copyright {
+    margin-top: 25px;
+    font-size: 13px;
+    opacity: 0.7;
 }
