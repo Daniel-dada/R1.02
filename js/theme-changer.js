@@ -1,11 +1,10 @@
-let link = document.getElementById("theme");
-let btn = document.getElementById("themeChanger");
+const theme = document.getElementById("theme");
+const bouton = document.getElementById("themeChanger");
 
-btn.addEventListener('click', () => {
-    link.href = link.href === "css/light.css" ? "css/dark.css" : "css/light.css";
-    window.localStorage.setItem("theme", link.href);
-})
-
-document.addEventListener('DOMContentLoaded', () => {
-    link.href = window.localStorage.getItem("theme") || "css/light.css";
-})
+bouton.addEventListener("click", function () {
+    if (theme.getAttribute("href") === "css/light.css") {
+        theme.setAttribute("href", "css/dark.css");
+    } else {
+        theme.setAttribute("href", "css/light.css");
+    }
+});
