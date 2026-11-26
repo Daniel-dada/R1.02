@@ -15,3 +15,8 @@
     width: 100%;
     margin-top: 20px;
 }
+.photo-plat {
+    object-fit: contain;
+    background-color: #edf1e8;
+    padding: 15px;
+}
