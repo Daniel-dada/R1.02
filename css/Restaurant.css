@@ -1,5 +1,5 @@
 .petit-titre {
-    font-family: 'Inknut Antiqua', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 13px;
     color: var(--vert);
     margin-bottom: 10px;
@@ -15,7 +15,7 @@
 }
 
 .hero-restaurants h1 {
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Poppins', sans-serif;
     font-size: 60px;
     margin-bottom: 15px;
 }
@@ -26,7 +26,7 @@
 
 .services {
     margin-top: 40px;
-    font-family: 'Inknut Antiqua', serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* ----- Les 3 restaurants ----- */
@@ -38,7 +38,7 @@
 }
 
 h2 {
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Poppins', sans-serif;
     font-size: 40px;
     margin-bottom: 30px;
 }
@@ -65,12 +65,12 @@ h2 {
 }
 
 .ville {
-    font-family: 'Inknut Antiqua', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 12px;
 }
 
 .carte-haut h3 {
-    font-family: 'Kaushan Script', cursive;
+    font-family: 'Poppins', sans-serif;
     font-size: 26px;
     margin-top: 25px;
 }
@@ -116,7 +116,7 @@ h2 {
 }
 
 .texte-valeurs {
-    font-family: 'Holtwood One SC', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
     line-height: 1.8;
     text-transform: uppercase;

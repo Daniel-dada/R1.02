@@ -24,7 +24,7 @@
     border-radius: 15px;
     text-align: center;
     text-decoration: none;
-    font-family: 'Cinzel', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .presentation p {
-    font-family: 'Rye', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
     line-height: 1.8;
     text-transform: uppercase;

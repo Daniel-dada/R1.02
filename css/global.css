@@ -7,7 +7,7 @@
 body {
     background-color: var(--fond);
     color: var(--texte);
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 img {
@@ -45,12 +45,12 @@ header {
 }
 
 .nom {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
     font-size: 48px;
 }
 
 .slogan {
-    font-family: 'Cinzel', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     margin-top: 10px;
 }
@@ -63,7 +63,7 @@ nav {
 }
 
 nav a {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
     font-size: 48px;
     color: var(--texte-bandeau);
     text-decoration: none;
@@ -91,12 +91,12 @@ footer {
 }
 
 .footer-nom {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
     font-size: 32px;
 }
 
 .footer-suivez {
-    font-family: 'Cinzel', serif;
+    font-family: 'Poppins', sans-serif;
     margin: 15px 0 10px;
 }
 
