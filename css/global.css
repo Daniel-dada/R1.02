@@ -19,7 +19,7 @@ img {
     color: var(--vert);
 }
 
-/* ----- En-tête ----- */
+/*En-tête*/
 header {
     background-color: var(--bandeau);
     color: var(--texte-bandeau);
@@ -82,7 +82,7 @@ nav a:hover {
     cursor: pointer;
 }
 
-/* ----- Pied de page ----- */
+/*Pied de page*/
 footer {
     border-top: 3px solid var(--vert);
     margin: 10px;
