@@ -10,7 +10,6 @@
     color: var(--vert);
 }
 
-/* Un seul bouton qui prend toute la largeur de la carte */
 .carte .bouton-large {
     width: 100%;
     margin-top: 20px;
@@ -19,4 +18,9 @@
     object-fit: contain;
     background-color: #edf1e8;
     padding: 15px;
+}
+/*police*/
+.prix {
+    font-size: 24px;
+    font-weight: 600;
 }

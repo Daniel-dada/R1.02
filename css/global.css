@@ -124,3 +124,33 @@ footer {
     font-size: 13px;
     opacity: 0.7;
 }
+/*police*/
+.nom {
+    font-size: 40px;
+    font-weight: 800;
+}
+.slogan {
+    font-size: 16px;
+}
+nav a {
+    font-size: 28px;
+    font-weight: 600;
+}
+.bouton {
+    padding: 22px 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer-nom {
+    font-size: 28px;
+    font-weight: 800;
+}
+#themeChanger {
+    font-family: 'Poppins', sans-serif;
+}
+@media (max-width: 900px) {
+    nav a,
+    .nom {
+        font-size: 24px;
+    }
+}
