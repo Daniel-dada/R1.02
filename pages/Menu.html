@@ -2,24 +2,163 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Menu</title>
-    <link rel="stylesheet" href="/css/light.css" id="theme">
-    <link rel="stylesheet" href="/css/global.css">
-    <link rel="stylesheet" href="/css/Menu.css">
+    <title>Menu</title>«
+    <link rel="stylesheet" href="../css/light.css" id="theme">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/restaurant.css">
+    <link rel="stylesheet" href="../css/Menu.css">
 </head>
 <body>
 <header>
+    <div class="marque">
+        <a href="../index.html" class="logo-titre">
+            <img src="../img/logo.jpg" alt="Logo EDA" class="logo-petit">
+            <span class="nom">EDA <span class="vert">SNACK</span></span>
+        </a>
+        <p class="slogan">
+            Eco<span class="vert">logic</span> , Deli<span class="vert">cious</span>, Art<span class="vert">isan</span>
+        </p>
+    </div>
     <nav>
-        <a href="/EDA_SNACK/Menu.html">Menu</a>
+        <a href="Menu.html" class="actif">MENU</a>
+        <a href="Restaurant.html">RESTAURANTS</a>
         <button id="themeChanger">Changer de couleur</button>
     </nav>
 </header>
-<h1></h1>
+
 <main>
-    <section>
+
+    <section class="hero-restaurants">
+        <p class="petit-titre">FAIT MAISON, TOUS LES JOURS</p>
+        <h1>Notre menu</h1>
+        <p>Des produits locaux, préparés avec soin.</p>
+        <p class="services">À EMPORTER / SUR PLACE / À SAVOURER</p>
+    </section>
+    
+    <section class="liste-restaurants">
+        <p class="petit-titre">LA CARTE EDA</p>
+
+        <h2>Burgers</h2>
+        <div class="cartes">
+            <article class="carte">
+                <img src="../img/burgers.jpg" alt="Burger Le Classique" class="carte-photo">
+                <div class="carte-haut">
+                    <p class="ville">BURGER</p>
+                    <h3>Le Classique</h3>
+                </div>
+                <div class="carte-bas">
+                    <p class="prix">8,50 €</p>
+                    <p>Steak, cheddar, salade, tomate et oignons.</p>
+                    <a href="#" class="bouton bouton-plein bouton-large">COMMANDER</a>
+                </div>
+            </article>
+
+            <article class="carte">
+                <img src="../img/restaurants.jpg" alt="Burger Le Veggie" class="carte-photo">
+                <div class="carte-haut">
+                    <p class="ville">BURGER</p>
+                    <h3>Le Veggie</h3>
+                </div>
+                <div class="carte-bas">
+                    <p class="prix">8,90 €</p>
+                    <p>Galette de légumes, avocat et sauce yaourt.</p>
+                    <a href="#" class="bouton bouton-plein bouton-large">COMMANDER</a>
+                </div>
+            </article>
+
+            <article class="carte">
+                <img src="../img/burgers.jpg" alt="Burger Le Double" class="carte-photo">
+                <div class="carte-haut">
+                    <p class="ville">BURGER</p>
+                    <h3>Le Double</h3>
+                </div>
+                <div class="carte-bas">
+                    <p class="prix">10,90 €</p>
+                    <p>Deux steaks, double cheddar et sauce maison.</p>
+                    <a href="#" class="bouton bouton-plein bouton-large">COMMANDER</a>
+                </div>
+            </article>
+        </div>
+
+        <h2>Sandwichs &amp; à côté</h2>
+        <div class="cartes">
+            <article class="carte">
+                <img src="../img/panini.jpg" alt="Panini au poulet" class="carte-photo">
+                <div class="carte-haut">
+                    <p class="ville">SANDWICH</p>
+                    <h3>Panini Poulet</h3>
+                </div>
+                <div class="carte-bas">
+                    <p class="prix">7,50 €</p>
+                    <p>Poulet croustillant, cheddar et roquette.</p>
+                    <a href="#" class="bouton bouton-plein bouton-large">COMMANDER</a>
+                </div>
+            </article>
+
+            <article class="carte">
+                <img src="../img/restaurants.jpg" alt="Wrap au poulet" class="carte-photo">
+                <div class="carte-haut">
+                    <p class="ville">SANDWICH</p>
+                    <h3>Wrap Poulet</h3>
+                </div>
+                <div class="carte-bas">
+                    <p class="prix">7,00 €</p>
+                    <p>Poulet grillé, crudités et sauce blanche.</p>
+                    <a href="#" class="bouton bouton-plein bouton-large">COMMANDER</a>
+                </div>
+            </article>
+
+            <article class="carte">
+                <img src="../img/restaurants.jpg" alt="Frites maison" class="carte-photo">
+                <div class="carte-haut">
+                    <p class="ville">À CÔTÉ</p>
+                    <h3>Frites maison</h3>
+                </div>
+                <div class="carte-bas">
+                    <p class="prix">3,00 €</p>
+                    <p>Pommes de terre locales, coupées à la main.</p>
+                    <a href="#" class="bouton bouton-plein bouton-large">COMMANDER</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="engagements">
+        <div>
+            <p class="petit-titre">LA RESTAURATION RAPIDE QUI A DU SENS</p>
+            <h2>Écologique.<br>Délicieux. Artisanal.</h2>
+            <a href="Restaurant.html" class="bouton bouton-plein">NOS RESTAURANTS</a>
+        </div>
+        <p class="texte-valeurs">
+            EDA est un snack qui propose une restauration rapide, délicieuse et respectueuse de l'environnement.
+            Nous privilégions les produits locaux et les ingrédients de qualité afin de proposer une alimentation plus responsable.
+        </p>
     </section>
 </main>
-<footer></footer>
-<script src="/js/theme-changer.js" defer></script>
+
+<footer>
+    <p class="footer-nom">EDA <span class="vert">SNACK</span></p>
+
+    <p class="footer-suivez">Suivez-nous</p>
+    <div class="reseaux">
+        <a href="#" target="_blank" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="18" height="18" rx="5"/>
+                <circle cx="12" cy="12" r="4"/>
+                <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+            </svg>
+            @eda.snack
+        </a>
+        <a href="#" target="_blank" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor">
+                <path d="M16.6 5.8A4.3 4.3 0 0 1 15.5 3h-3.1v12.4a2.6 2.6 0 1 1-2.6-2.6c.3 0 .5 0 .8.1V9.7a5.7 5.7 0 1 0 4.9 5.7V9.1a7.3 7.3 0 0 0 4.3 1.4V7.4a4.3 4.3 0 0 1-3.2-1.6z"/>
+            </svg>
+            @eda.snack
+        </a>
+    </div>
+
+    <p class="copyright">&copy; 2026 EDA SNACK - Tous droits réservés</p>
+</footer>
+<script src="../js/theme-changer.js" defer></script>
 </body>
 </html>

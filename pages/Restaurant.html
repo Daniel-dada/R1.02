@@ -3,24 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <title>Restaurant</title>
-    <link rel="stylesheet" href="/css/light.css" id="theme">
-    <link rel="stylesheet" href="/css/global.css">
-    <link rel="stylesheet" href="/css/Restaurant.css">
+    <link rel="stylesheet" href="../css/light.css" id="theme">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/Restaurant.css">
 </head>
 <body>
 <header>
+    <div class="marque">
+        <a href="../index.html" class="logo-titre">
+            <img src="../img/logo.jpg" alt="Logo EDA" class="logo-petit">
+            <span class="nom">EDA <span class="vert">SNACK</span></span>
+        </a>
+        <p class="slogan">
+            Eco<span class="vert">logic</span> , Deli<span class="vert">cious</span>, Art<span class="vert">isan</span>
+        </p>
+    </div>
     <nav>
-        <a href="https://www.google.fr">GOOGLE</a>
-        <a href="/EDA_SNACK/Restaurant.html">Restaurant</a>
+        <a href="Menu.html">MENU</a>
+        <a href="Restaurant.html" class="actif">RESTAURANTS</a>
         <button id="themeChanger">Changer de couleur</button>
     </nav>
 </header>
-<h1>Nos Restaurants</h1>
+
 <main>
-    <section>
+    <!-- Haut de page avec la photo -->
+    <section class="hero-restaurants">
+        <p class="petit-titre">ON N'EST JAMAIS BIEN LOIN</p>
+        <h1>Nos restaurants</h1>
+        <p>Le goût du fait maison, près de chez vous.</p>
+        <p class="services">À EMPORTER / SUR PLACE / À SAVOURER</p>
+    </section>
+
+    <!-- Les 3 restaurants -->
+    <section class="liste-restaurants">
+        <p class="petit-titre">LA BONNE ADRESSE POUR VOTRE PAUSE</p>
+        <h2>Tous nos restaurants</h2>
+
+        <div class="cartes">
+            <article class="carte">
+                <img src="../img/paris.jpg" alt="La tour Eiffel à Paris" class="carte-photo">
+                <div class="carte-haut">
+                    <p class="ville">PARIS</p>
+                    <h3>EDA · Centre-ville</h3>
+                </div>
+                <div class="carte-bas">
+                    <p><strong>Sur place &amp; à emporter</strong></p>
+                    <p>Le goût EDA, tout près de vous.</p>
+                    <div class="boutons">
+                        <a href="#" class="bouton bouton-contour">DÉCOUVRIR</a>
+                        <a href="#" class="bouton bouton-plein">COMMANDER</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="carte">
+                <img src="../img/lyon.jpg" alt="Vue sur la ville de Lyon" class="carte-photo">
+                <div class="carte-haut">
+                    <p class="ville">LYON</p>
+                    <h3>EDA · Les Terrasses</h3>
+                </div>
+                <div class="carte-bas">
+                    <p><strong>Sur place &amp; à emporter</strong></p>
+                    <p>Le goût EDA, tout près de vous.</p>
+                    <div class="boutons">
+                        <a href="#" class="bouton bouton-contour">DÉCOUVRIR</a>
+                        <a href="#" class="bouton bouton-plein">COMMANDER</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="carte">
+                <img src="../img/marseille.jpg" alt="Le Vieux-Port de Marseille" class="carte-photo">
+                <div class="carte-haut">
+                    <p class="ville">MARSEILLE</p>
+                    <h3>EDA · Côté Campus</h3>
+                </div>
+                <div class="carte-bas">
+                    <p><strong>Sur place &amp; à emporter</strong></p>
+                    <p>Le goût EDA, tout près de vous.</p>
+                    <div class="boutons">
+                        <a href="#" class="bouton bouton-contour">DÉCOUVRIR</a>
+                        <a href="#" class="bouton bouton-plein">COMMANDER</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Nos valeurs -->
+    <section class="engagements">
+        <div>
+            <p class="petit-titre">LA RESTAURATION RAPIDE QUI A DU SENS</p>
+            <h2>Écologique.<br>Délicieux. Artisanal.</h2>
+            <a href="Menu.html" class="bouton bouton-plein">VOIR LE MENU</a>
+        </div>
+        <p class="texte-valeurs">
+            EDA est un snack qui propose une restauration rapide, délicieuse et respectueuse de l'environnement.
+            Nous privilégions les produits locaux et les ingrédients de qualité afin de proposer une alimentation plus responsable.
+        </p>
     </section>
 </main>
-<footer></footer>
-<script src="/js/theme-changer.js" defer></script>
+
+<footer>
+    <p class="footer-nom">EDA <span class="vert">SNACK</span></p>
+
+    <p class="footer-suivez">Suivez-nous</p>
+    <div class="reseaux">
+        <!-- Faux comptes : remplace "#" par les vrais liens -->
+        <a href="#" target="_blank" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="18" height="18" rx="5"/>
+                <circle cx="12" cy="12" r="4"/>
+                <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+            </svg>
+            @eda.snack
+        </a>
+        <a href="#" target="_blank" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor">
+                <path d="M16.6 5.8A4.3 4.3 0 0 1 15.5 3h-3.1v12.4a2.6 2.6 0 1 1-2.6-2.6c.3 0 .5 0 .8.1V9.7a5.7 5.7 0 1 0 4.9 5.7V9.1a7.3 7.3 0 0 0 4.3 1.4V7.4a4.3 4.3 0 0 1-3.2-1.6z"/>
+            </svg>
+            @eda.snack
+        </a>
+    </div>
+
+    <p class="copyright">&copy; 2026 EDA SNACK - Tous droits réservés</p>
+    <!-- Les photos viennent de Wikimedia Commons : on doit citer leurs auteurs -->
+    <p class="credits">Photos des villes (Wikimedia Commons) : Paris - Getfunky Paris (CC BY 2.0), Lyon - Geoprofi Lars (CC BY-SA 4.0), Marseille - Zairon (CC BY-SA 4.0)</p>
+</footer>
+<script src="../js/theme-changer.js" defer></script>
 </body>
 </html>

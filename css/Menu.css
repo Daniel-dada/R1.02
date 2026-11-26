@@ -1,0 +1,17 @@
+/* Espace entre les burgers et le titre "Sandwichs & à côté" */
+.cartes {
+    margin-bottom: 50px;
+}
+
+/* Prix en vert, bien visible */
+.prix {
+    font-family: 'Katibeh', serif;
+    font-size: 32px;
+    color: var(--vert);
+}
+
+/* Un seul bouton qui prend toute la largeur de la carte */
+.carte .bouton-large {
+    width: 100%;
+    margin-top: 20px;
+}
