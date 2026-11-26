@@ -154,3 +154,10 @@ nav a {
         font-size: 24px;
     }
 }
+
+.adresse-iut {
+    font-style: normal;
+    font-size: 13px;
+    margin-top: 10px;
+    opacity: 0.8;
+}
