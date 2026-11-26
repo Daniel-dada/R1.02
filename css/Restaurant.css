@@ -7,7 +7,7 @@
 
 .hero-restaurants {
     /* un voile noir par-dessus la photo pour que le texte reste lisible */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/burgers.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/banniere.jpg");
     background-size: cover;
     background-position: center;
     color: #ffffff;
